@@ -166,6 +166,6 @@ export class WeatherMCP extends Tool {
 
 // 导出天气 MCP 实例
 export const weatherMCP = new WeatherMCP({
-  apiKey: process.env.WEATHER_API_KEY!,
+  apiKey: '7b7ce26e7819851536a07716a7287129',
   baseUrl: process.env.WEATHER_API_URL,
 })

@@ -7,7 +7,7 @@ dotenv.config()
 
 // 创建天气 MCP 工具实例
 const weatherTool = new WeatherMCP({
-  apiKey: process.env.WEATHER_API_KEY!,
+  apiKey: '7b7ce26e7819851536a07716a7287129',
   baseUrl: process.env.WEATHER_API_URL,
 })
 

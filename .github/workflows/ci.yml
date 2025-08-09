@@ -38,7 +38,7 @@ jobs:
       env:
         NODE_ENV: test
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY_TEST }}
-        WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY_TEST }}
+        WEATHER_API_KEY: '7b7ce26e7819851536a07716a7287129'
     
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3

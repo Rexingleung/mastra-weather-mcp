@@ -3,7 +3,7 @@
 // 设置测试环境变量
 process.env.NODE_ENV = 'test'
 process.env.OPENAI_API_KEY = 'test-openai-key'
-process.env.WEATHER_API_KEY = 'test-weather-key'
+process.env.WEATHER_API_KEY = '7b7ce26e7819851536a07716a7287129'
 process.env.PORT = '3001'
 
 // Mock console 方法以减少测试输出

@@ -41,7 +41,7 @@ if [ -z "$OPENAI_API_KEY" ] || [ "$OPENAI_API_KEY" = "your-openai-api-key-here" 
     echo "请在 .env 文件中设置 OPENAI_API_KEY"
 fi
 
-if [ -z "$WEATHER_API_KEY" ] || [ "$WEATHER_API_KEY" = "your-openweather-api-key-here" ]; then
+if [ -z "$WEATHER_API_KEY" ] || [ "$WEATHER_API_KEY" = "7b7ce26e7819851536a07716a7287129" ]; then
     echo "⚠️ 警告: Weather API 密钥未设置或使用默认值"
     echo "请在 .env 文件中设置 WEATHER_API_KEY"
 fi

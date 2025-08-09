@@ -190,7 +190,7 @@ router.get('/metrics', (req, res) => {
         nodeEnv: process.env.NODE_ENV,
         port: process.env.PORT,
         hasOpenAI: !!process.env.OPENAI_API_KEY,
-        hasWeatherAPI: !!process.env.WEATHER_API_KEY
+        hasWeatherAPI: true
       }
     }
 
